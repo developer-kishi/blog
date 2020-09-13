@@ -55,7 +55,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     background: #16202c;
     line-height: 1;
-    font-size: 60%;
+    font-size: 100%;
     font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
   img {
@@ -63,15 +63,15 @@ const GlobalStyles = createGlobalStyle`
   	width: 100%;
   	height: auto;
   }
-
+ 
  
   body.dark {
-    --borders: #38444d;
+    --borders: #000a12;
     --texts: #8899a6;
     --postColor: #fff;
     --highlight: #1fa1f2;
-    --mediumBackground: #192734;
-    --background: #16202c;
+    --mediumBackground: #000a12;
+    --background: #212121;
     --white: #fff;
     --black: #222;
   }

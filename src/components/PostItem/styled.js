@@ -20,12 +20,12 @@ export const PostItemWrapper = styled.section`
   align-items: center;
   border-bottom: 1px solid var(--borders);
   display: flex;
-  padding: 1rem 1.5rem;
+  padding: 2rem 3rem;
   width: 100%;
 
   body#grid & {
     border: none;
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
     flex-direction: column;
     justify-content: center;
   }
@@ -33,7 +33,7 @@ export const PostItemWrapper = styled.section`
   ${media.lessThan("large")`
     align-items: flex-start;
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem 1rem ;
   `}
 `
 
@@ -44,8 +44,8 @@ export const PostItemTag = styled.div`
   border-radius: 5%;
   color: #fff;
   display: flex;
-  font-size: 1.3rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 400;
   justify-content: center;
   min-height: 90px;
   min-width: 90px;

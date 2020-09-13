@@ -9,7 +9,7 @@ module.exports = {
     position: `Backend Developer`,
     description: `"É impossível progredir sem mudança, e aqueles que não mudam suas mentes não podem mudar nada."`,
     author: `Renato Kishi`,
-    siteUrl: "https://renato.com.br"
+    siteUrl: "https://kishi.netlify.app"
   },
   plugins: [    
     `gatsby-plugin-transition-link`,
@@ -65,6 +65,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-     `gatsby-plugin-offline`,
+     `gatsby-plugin-offline`,     
+    `gatsby-plugin-netlify-cms`,
   ],
 }
